@@ -1,3 +1,5 @@
+// Given a sentence, check whether it is a palindrome or not.
+
 function processData(input) {
     // let str = input.toLowerCase().split(" ").join("").split(".").join("").split(",").join("").split("?").join("")
     let str = input.toLowerCase().replace(/[^a-zA-Z0-9]+/g,'')
